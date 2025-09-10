@@ -1,52 +1,70 @@
-style de la 
+/* style du exo 1 */
 
+/* style de l'entête  */
 header{
-width: 100%;
-height: 20vh;
-display: flex;
-background-color: blue;
-align-items: center;
-justify-content: center;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
 }
 
 .bandeau{
-width: 50%;    
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 50%;    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+/* style de l'entête  */
 
+/* style du contenue */
 main{
-width: 100%;
-height: 60vh;
-background-color: yellow;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenu{
-display: flex;
-align-items: center;    
-justify-content: center;
-flex-direction: column;
+    display: flex;
+    width: 80%;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
 }
 
+.menu{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+}
+/* style du contenue */
 
+/* style de la pied de page  */
 footer{
-width: 100%;
-height: 20vh;
-background-color: red;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 100%;
+    height: 20vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pied-de-page{
-width: 50%;    
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 50%;    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+/* style de la pied de page  */
+
+/* style du exo 1 */
